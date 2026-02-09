@@ -39,12 +39,10 @@ The standard NV-like defect is modeled with 7 states:
 | Parameter | Description | Typical Value (MHz) |
 |-----------|-------------|---------------------|
 | $k_{41}$, $k_{52}$, $k_{63}$ | Radiative decay (ES $\to$ GS) | 62.5 |
-| $k_{47}$ | Upper ISC (ES $\vert 0\rangle \to$ SS) | 4.4 |
-| $k_{57}$ | Upper ISC (ES $\vert -\rangle \to$ SS) | 0.005 |
-| $k_{67}$ | Upper ISC (ES $\vert +\rangle \to$ SS) | 44.1 |
-| $k_{71}$ | Lower ISC (SS $\to$ GS $\vert 0\rangle$) | 2336 |
-| $k_{72}$ | Lower ISC (SS $\to$ GS $\vert -\rangle$) | 3.1 |
-| $k_{73}$ | Lower ISC (SS $\to$ GS $\vert +\rangle$) | 0.001 |
+| $k_{47}$ | Upper ISC (ES $\vert 0\rangle \to$ SS) | 10.5 |
+| $k_{57}$, $k_{67}$ | Upper ISC (ES $\vert \pm\rangle \to$ SS) | 76.9 |
+| $k_{71}$ | Lower ISC (SS $\to$ GS $\vert 0\rangle$) | 3.0 |
+| $k_{72}$, $k_{73}$ | Lower ISC (SS $\to$ GS $\vert \pm\rangle$) | 2.63 |
 | $\Gamma$ | Optical excitation (GS $\to$ ES) | 0.1 - 10 |
 | $k_\text{MW}$ | Microwave driving (GS $\vert 0\rangle \leftrightarrow$ GS $\vert \pm\rangle$) | 0 - 10 |
 
