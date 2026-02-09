@@ -69,7 +69,6 @@ venv.bak/
 .DS_Store
 
 # Output files
-*.pdf
 *.png
 *.txt
 !requirements.txt

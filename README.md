@@ -1,4 +1,4 @@
-# odmr_sim
+# ODMR_SIM
 
 A Python package for simulating **Optically Detected Magnetic Resonance (ODMR)** using configurable N-level rate equation models.
 
@@ -73,11 +73,11 @@ W = model.build_rate_matrix()
 ## Rate Parameters
 
 The 7-level model includes:
-- **Radiative transitions**: k41, k52, k63 (ES -> GS)
-- **Upper ISC rates**: k47, k57, k67 (ES -> Singlet)
-- **Lower ISC rates**: k71, k72, k73 (Singlet -> GS)
-- **Excitation rate**: Gamma (GS -> ES)
-- **Microwave rates**: k_MW+/- (GS|0> <-> GS|+/->)
+- **Radiative transitions**: $k_{41}$, $k_{52}$, $k_{63}$ (ES $\to$ GS)
+- **Upper ISC rates**: $k_{47}$, $k_{57}$, $k_{67}$ (ES $\to$ Singlet)
+- **Lower ISC rates**: $k_{71}$, $k_{72}$, $k_{73}$ (Singlet $\to$ GS)
+- **Excitation rate**: $\Gamma$ (GS $\to$ ES)
+- **Microwave rates**: $k_{\rm MW}^{\pm}$ (GS$|0\rangle$ $\leftrightarrow$ GS$|\pm\rangle$)
 
 ## Documentation
 
