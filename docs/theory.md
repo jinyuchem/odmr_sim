@@ -26,12 +26,12 @@ The standard NV-like defect is modeled with 7 states:
 
 | Index | State | Description |
 |-------|-------|-------------|
-| 0 | GS $|0\rangle$ | Ground state, $m_s = 0$ |
-| 1 | GS $|-\rangle$ | Ground state, $m_s = -1$ |
-| 2 | GS $|+\rangle$ | Ground state, $m_s = +1$ |
-| 3 | ES $|0\rangle$ | Excited state, $m_s = 0$ |
-| 4 | ES $|-\rangle$ | Excited state, $m_s = -1$ |
-| 5 | ES $|+\rangle$ | Excited state, $m_s = +1$ |
+| 0 | GS $\vert 0\rangle$ | Ground state, $m_s = 0$ |
+| 1 | GS $\vert -\rangle$ | Ground state, $m_s = -1$ |
+| 2 | GS $\vert +\rangle$ | Ground state, $m_s = +1$ |
+| 3 | ES $\vert 0\rangle$ | Excited state, $m_s = 0$ |
+| 4 | ES $\vert -\rangle$ | Excited state, $m_s = -1$ |
+| 5 | ES $\vert +\rangle$ | Excited state, $m_s = +1$ |
 | 6 | SS | Metastable singlet |
 
 ### Rate Parameters
@@ -39,14 +39,14 @@ The standard NV-like defect is modeled with 7 states:
 | Parameter | Description | Typical Value (MHz) |
 |-----------|-------------|---------------------|
 | $k_{41}$, $k_{52}$, $k_{63}$ | Radiative decay (ES $\to$ GS) | 62.5 |
-| $k_{47}$ | Upper ISC (ES $|0\rangle \to$ SS) | 4.4 |
-| $k_{57}$ | Upper ISC (ES $|-\rangle \to$ SS) | 0.005 |
-| $k_{67}$ | Upper ISC (ES $|+\rangle \to$ SS) | 44.1 |
-| $k_{71}$ | Lower ISC (SS $\to$ GS $|0\rangle$) | 2336 |
-| $k_{72}$ | Lower ISC (SS $\to$ GS $|-\rangle$) | 3.1 |
-| $k_{73}$ | Lower ISC (SS $\to$ GS $|+\rangle$) | 0.001 |
+| $k_{47}$ | Upper ISC (ES $\vert 0\rangle \to$ SS) | 4.4 |
+| $k_{57}$ | Upper ISC (ES $\vert -\rangle \to$ SS) | 0.005 |
+| $k_{67}$ | Upper ISC (ES $\vert +\rangle \to$ SS) | 44.1 |
+| $k_{71}$ | Lower ISC (SS $\to$ GS $\vert 0\rangle$) | 2336 |
+| $k_{72}$ | Lower ISC (SS $\to$ GS $\vert -\rangle$) | 3.1 |
+| $k_{73}$ | Lower ISC (SS $\to$ GS $\vert +\rangle$) | 0.001 |
 | $\Gamma$ | Optical excitation (GS $\to$ ES) | 0.1 - 10 |
-| $k_\text{MW}$ | Microwave driving (GS $|0\rangle \leftrightarrow$ GS $|\pm\rangle$) | 0 - 10 |
+| $k_\text{MW}$ | Microwave driving (GS $\vert 0\rangle \leftrightarrow$ GS $\vert \pm\rangle$) | 0 - 10 |
 
 ## Key Phenomena
 
