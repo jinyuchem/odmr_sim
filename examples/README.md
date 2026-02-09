@@ -54,8 +54,8 @@ examples/
 ### custom_8_level/ - Custom 8-Level Model
 - **Model**: 8-level with two metastable states (MS1, MS2)
 - **Level structure**:
-  - GS$|0\rangle$, GS$|-\rangle$, GS$|+\rangle$ (ground states)
-  - ES$|0\rangle$, ES$|-\rangle$, ES$|+\rangle$ (excited states)
+  - GS $|0\rangle$, GS $|-\rangle$, GS $|+\rangle$ (ground states)
+  - ES $|0\rangle$, ES $|-\rangle$, ES $|+\rangle$ (excited states)
   - MS1 (singlet 1) - connected to ES via ISC
   - MS2 (singlet 2) - connected to GS via ISC
 - **Decay pathway**: ES $\to$ MS1 $\to$ MS2 $\to$ GS
@@ -88,6 +88,6 @@ The package supports multiple methods for computing ODMR contrast:
 |--------|-------------|
 | `steady_state` | True equilibrium at $t \to \infty$ (null-space of rate matrix) |
 | `transient` | Final ES population at finite time |
-| `time_integrated` | Integrated fluorescence over $[0, t_{\rm integration}]$ |
+| `time_integrated` | Integrated fluorescence over $[0, t_\text{integration}]$ |
 
 See `g11_gm9_30dp/example_contrast_comparison.py` for a comparison of these methods.

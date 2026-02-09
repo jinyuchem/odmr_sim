@@ -77,7 +77,7 @@ The 7-level model includes:
 - **Upper ISC rates**: $k_{47}$, $k_{57}$, $k_{67}$ (ES $\to$ Singlet)
 - **Lower ISC rates**: $k_{71}$, $k_{72}$, $k_{73}$ (Singlet $\to$ GS)
 - **Excitation rate**: $\Gamma$ (GS $\to$ ES)
-- **Microwave rates**: $k_{\rm MW}^{\pm}$ (GS$|0\rangle$ $\leftrightarrow$ GS$|\pm\rangle$)
+- **Microwave rates**: $k_\text{MW}^\pm$ (GS $|0\rangle \leftrightarrow$ GS $|\pm\rangle$)
 
 ## Documentation
 
